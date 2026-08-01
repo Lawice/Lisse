@@ -1,7 +1,6 @@
 {
     "parent": "block/pressure_plate_up",
     "textures": {
-        "texture": "block/cherry_plate"
+        "texture": "block/iron_plate"
     }
 }
-
