@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/pressure_plate_up",
-  "textures": {
-    "texture": "minecraft:block/cherry_planks"
-  }
+    "parent": "block/pressure_plate_up",
+    "textures": {
+        "texture": "block/cherry_plate"
+    }
 }
+
