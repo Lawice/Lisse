@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:block/template_torch",
   "textures": {
-    "torch": "minecraft:block/copper_torch"
+    "torch": "minecraft:block/copper_torch",
+    "fire": "minecraft:block/copper_torch_fire"
   }
 }
