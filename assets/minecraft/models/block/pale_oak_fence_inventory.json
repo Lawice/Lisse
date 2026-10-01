@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_inventory",
   "textures": {
-    "texture": "minecraft:block/plae_oak_fence"
+    "texture": "minecraft:block/pale_oak_fence"
   }
 }
