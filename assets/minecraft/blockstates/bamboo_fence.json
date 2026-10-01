@@ -6,35 +6,42 @@
       }
     },
     {
-      "apply": {
-        "model": "minecraft:block/bamboo_fence_side_north"
-      },
       "when": {
         "north": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/bamboo_fence_side",
+        "uvlock": false
       }
     },
     {
-      "apply": {
-        "model": "minecraft:block/bamboo_fence_side_east"
-      },
       "when": {
         "east": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/bamboo_fence_side",
+        "y": 90,
+        "uvlock": false
       }
     },
     {
-      "apply": {
-        "model": "minecraft:block/bamboo_fence_side_south"
-      },
       "when": {
         "south": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/bamboo_fence_side2",
+        "y": 180,
+        "uvlock": false
       }
     },
     {
-      "apply": {
-        "model": "minecraft:block/bamboo_fence_side_west"
-      },
       "when": {
         "west": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/bamboo_fence_side2",
+        "y": 270,
+        "uvlock": false
       }
     }
   ]

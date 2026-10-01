@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/fence_post",
+  "parent": "minecraft:block/template_fence_post",
   "textures": {
-    "texture": "minecraft:block/birch_planks"
+    "texture": "minecraft:block/birch_fence",
+    "particle": "minecraft:block/birch_planks"
   }
 }
