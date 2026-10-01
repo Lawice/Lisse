@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/fence_inventory",
+  "parent": "minecraft:block/template_fence_inventory",
   "textures": {
-    "texture": "minecraft:block/birch_planks"
+    "texture": "minecraft:block/birch_fence"
   }
 }
