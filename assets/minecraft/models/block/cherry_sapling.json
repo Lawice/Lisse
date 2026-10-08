@@ -1,6 +1,119 @@
 {
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/cherry_sapling"
-  }
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/cherry_sapling_model",
+		"particle": "block/cherry_sapling"
+	},
+	"elements": [
+		{
+			"name": "wood",
+			"from": [7, 0, 7],
+			"to": [9, 8, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [12, 1, 13, 5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [13, 1, 14, 5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [14, 1, 15, 5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [15, 1, 16, 5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [14, 0, 15, 1], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [13, 0, 14, 1], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "wood",
+			"from": [7, 6, 11],
+			"to": [9, 8, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 11]},
+			"faces": {
+				"north": {"uv": [12, 1, 13, 5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [13, 1, 14, 5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [14, 1, 15, 5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [15, 1, 16, 5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [14, 0, 15, 1], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [13, 0, 14, 1], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "wood",
+			"from": [7, 8, 5],
+			"to": [9, 12, 7],
+			"rotation": {"x": -90, "y": 0, "z": 0, "origin": [7, 8, 7]},
+			"faces": {
+				"north": {"uv": [12, 1, 13, 5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [13, 1, 14, 5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [14, 1, 15, 5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [15, 1, 16, 5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [14, 0, 15, 1], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [13, 0, 14, 1], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "wood",
+			"from": [7, 6, 9],
+			"to": [9, 10, 11],
+			"rotation": {"x": 90, "y": 0, "z": 0, "origin": [7, 6, 9]},
+			"faces": {
+				"north": {"uv": [12, 1, 13, 5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [13, 1, 14, 5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [14, 1, 15, 5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [15, 1, 16, 5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [14, 0, 15, 1], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [13, 0, 14, 1], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5, 8, 1],
+			"to": [11, 10, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 1, 7]},
+			"faces": {
+				"north": {"uv": [0, 4, 3, 5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 4, 6, 5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 4, 3, 5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [1, 2, 7, 3], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0, 0, 3, 6], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [0, 0, 3, 6], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5, 14, 1],
+			"to": [11, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 7, 7]},
+			"faces": {
+				"north": {"uv": [0, 4, 3, 5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 4, 6, 5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 4, 3, 5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [1, 7, 7, 8], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0, 0, 3, 6], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [0, 0, 3, 6], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [3, 10, -1],
+			"to": [13, 14, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 3, 6]},
+			"faces": {
+				"north": {"uv": [0, 4, 5, 6], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 2, 8, 4], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 4, 5, 6], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 0, 8, 2], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0, 0, 5, 8], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [5, 0, 10, 8], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		{
+			"name": "leaves",
+			"origin": [4, -1, 1],
+			"scope": 0,
+			"color": 0,
+			"children": [4, 5, 6]
+		}
+	]
 }
