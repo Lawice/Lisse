@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/ore_all",
   "textures": {
-    "all": "minecraft:block/coal_ore"
+    "all": "minecraft:block/stone",
+    "ore": "minecraft:block/coal_ore"
   }
 }
