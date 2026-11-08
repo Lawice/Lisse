@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/template_wall_side",
-  "textures": {
-    "wall": "minecraft:block/cobbled_deepslate"
-  }
+	"parent": "minecraft:block/template_wall_side",
+	"textures": {
+		"wall": "minecraft:block/cobbled_deepslate_wall",
+		"block": "minecraft:block/cobbled_deepslate"
+	}
 }

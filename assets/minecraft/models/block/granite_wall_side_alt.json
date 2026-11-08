@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/template_wall_side_alt",
+	"textures": {
+		"wall": "minecraft:block/granite_wall",
+		"block": "minecraft:block/granite"
+	}
+}
