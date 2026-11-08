@@ -1,90 +1,65 @@
 {
   "multipart": [
-    {
-      "apply": {
-        "model": "minecraft:block/sulfur_brick_wall_post"
-      },
-      "when": {
-        "up": "true"
-      }
+    { "when": { "up": "true" },
+      "apply": { "model": "block/sulfur_brick_wall_post" }
     },
-    {
-      "apply": {
-        "model": "minecraft:block/sulfur_brick_wall_side",
-        "uvlock": true
-      },
-      "when": {
-        "north": "low"
-      }
+
+    { "when": { "AND": [
+      { "north": "low", "south": "low" },
+      { "OR": [ { "east": "tall|none" }, { "west": "tall|none" } ] }
+    ] },
+      "apply": { "model": "block/sulfur_brick_wall", "y": 180 }
     },
-    {
-      "apply": {
-        "model": "minecraft:block/sulfur_brick_wall_side",
-        "uvlock": true,
-        "y": 90
-      },
-      "when": {
-        "east": "low"
-      }
+    { "when": { "AND": [
+      { "east": "low", "west": "low" },
+      { "OR": [ { "north": "tall|none" }, { "south": "tall|none" } ] }
+    ] },
+      "apply": { "model": "block/sulfur_brick_wall", "y": 270 }
     },
-    {
-      "apply": {
-        "model": "minecraft:block/sulfur_brick_wall_side",
-        "uvlock": true,
-        "y": 180
-      },
-      "when": {
-        "south": "low"
-      }
+    { "when": { "AND": [
+      { "north": "tall", "south": "tall" },
+      { "OR": [ { "east": "low|none" }, { "west": "low|none" } ] }
+    ] },
+      "apply": { "model": "block/sulfur_brick_wall_tall", "y": 180 }
     },
-    {
-      "apply": {
-        "model": "minecraft:block/sulfur_brick_wall_side",
-        "uvlock": true,
-        "y": 270
-      },
-      "when": {
-        "west": "low"
-      }
+    { "when": { "AND": [
+      { "east": "tall", "west": "tall" },
+      { "OR": [ { "north": "low|none" }, { "south": "low|none" } ] }
+    ] },
+      "apply": { "model": "block/sulfur_brick_wall_tall", "y": 270 }
     },
-    {
-      "apply": {
-        "model": "minecraft:block/sulfur_brick_wall_side_tall",
-        "uvlock": true
-      },
-      "when": {
-        "north": "tall"
-      }
+
+    { "when": { "north": "low", "south": "tall|none" },
+      "apply": { "model": "block/sulfur_brick_wall_side" }
     },
-    {
-      "apply": {
-        "model": "minecraft:block/sulfur_brick_wall_side_tall",
-        "uvlock": true,
-        "y": 90
-      },
-      "when": {
-        "east": "tall"
-      }
+    { "when": { "east": "low", "west": "tall|none" },
+      "apply": { "model": "block/sulfur_brick_wall_side", "y": 90 }
     },
-    {
-      "apply": {
-        "model": "minecraft:block/sulfur_brick_wall_side_tall",
-        "uvlock": true,
-        "y": 180
-      },
-      "when": {
-        "south": "tall"
-      }
+    { "when": { "south": "low", "north": "tall|none" },
+      "apply": { "model": "block/sulfur_brick_wall_side_alt" }
     },
-    {
-      "apply": {
-        "model": "minecraft:block/sulfur_brick_wall_side_tall",
-        "uvlock": true,
-        "y": 270
-      },
-      "when": {
-        "west": "tall"
-      }
+    { "when": { "west": "low", "east": "tall|none" },
+      "apply": { "model": "block/sulfur_brick_wall_side_alt", "y": 90 }
+    },
+
+    { "when": { "north": "tall", "south": "low|none" },
+      "apply": { "model": "block/sulfur_brick_wall_side_tall" }
+    },
+    { "when": { "east": "tall", "west": "low|none" },
+      "apply": { "model": "block/sulfur_brick_wall_side_tall", "y": 90 }
+    },
+    { "when": { "south": "tall", "north": "low|none" },
+      "apply": { "model": "block/sulfur_brick_wall_side_tall_alt" }
+    },
+    { "when": { "west": "tall", "east": "low|none" },
+      "apply": { "model": "block/sulfur_brick_wall_side_tall_alt", "y": 90 }
+    },
+
+    { "when": { "north": "low", "south": "low", "east": "low", "west": "low" },
+      "apply": { "model": "block/sulfur_brick_wall_cross" }
+    },
+    { "when": { "north": "tall", "south": "tall", "east": "tall", "west": "tall" },
+      "apply": { "model": "block/sulfur_brick_wall_cross_tall" }
     }
   ]
 }

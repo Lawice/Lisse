@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/template_wall_cross",
+	"textures": {
+		"wall": "minecraft:block/diorite_brick_wall",
+		"block": "minecraft:block/diorite_bricks"
+	}
+}
